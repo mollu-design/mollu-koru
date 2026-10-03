@@ -1,0 +1,13 @@
+<svg width="641" height="512" xmlns="http://www.w3.org/2000/svg">
+ <title>负荷开关</title>
+
+ <g>
+  <title>Layer 1</title>
+  <line fill="none" stroke="#000" x1="878" y1="314" x2="877" y2="314" id="svg_1" stroke-linejoin="undefined" stroke-linecap="undefined"/>
+  <line stroke="#000" fill="none" x1="1" y1="258.5" x2="168" y2="257.5" id="svg_2" stroke-linejoin="undefined" stroke-linecap="undefined" stroke-width="30"/>
+  <line fill="none" stroke="#000" x1="216" y1="328" x2="216" y2="327" id="svg_4" stroke-linejoin="undefined" stroke-linecap="undefined"/>
+  <line transform="rotate(90 454.646 259.5)" fill="none" stroke="#000" x1="393.14645" y1="259" x2="516.14645" y2="260.00001" id="svg_8" stroke-linejoin="undefined" stroke-linecap="undefined" stroke-width="30"/>
+  <line fill="none" x1="469" y1="259" x2="643" y2="260.00001" id="svg_10" stroke-linejoin="undefined" stroke-linecap="undefined" stroke-width="30" stroke="#000"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_6" y2="146" x2="432.5" y1="259" x1="160.5" stroke-width="30" stroke="#000" fill="none"/>
+ </g>
+</svg>

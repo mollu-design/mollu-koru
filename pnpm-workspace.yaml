@@ -1,0 +1,33 @@
+# packages:
+#   - packages/*
+
+overrides:
+  'vue': 'npm:vue@rc'
+  '@vue/compiler-core': 'npm:@vue/compiler-core@rc'
+  '@vue/compiler-dom': 'npm:@vue/compiler-dom@rc'
+  '@vue/compiler-sfc': 'npm:@vue/compiler-sfc@rc'
+  '@vue/compiler-ssr': 'npm:@vue/compiler-ssr@rc'
+  '@vue/compiler-vapor': 'npm:@vue/compiler-vapor@rc'
+  '@vue/reactivity': 'npm:@vue/reactivity@rc'
+  '@vue/runtime-core': 'npm:@vue/runtime-core@rc'
+  '@vue/runtime-dom': 'npm:@vue/runtime-dom@rc'
+  '@vue/runtime-vapor': 'npm:@vue/runtime-vapor@rc'
+  '@vue/server-renderer': 'npm:@vue/server-renderer@rc'
+  '@vue/shared': 'npm:@vue/shared@rc'
+  '@vue/compat': 'npm:@vue/compat@rc'
+  vite: 'catalog:'
+
+peerDependencyRules:
+  allowAny:
+    - 'vue'
+    - 'vite'
+  allowedVersions:
+    vite: '*'
+
+catalog:
+  vite: npm:@voidzero-dev/vite-plus-core@0.2.4
+  vite-plus: 0.2.4
+
+allowBuilds:
+  '@parcel/watcher': true
+  esbuild: true

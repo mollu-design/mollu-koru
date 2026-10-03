@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="778" viewBox="0 0 512 778" xmlns="http://www.w3.org/2000/svg">
+ <g id="Layer_1">
+  <!-- 上绝缘子 不变 -->
+  <g id="svg_24">
+   <line stroke="#000" stroke-width="30" fill="none" x1="280.62188" y1="26.55417" x2="171.64321" y2="134.28491"/>
+   <line stroke="#000" stroke-width="30" fill="none" x1="260.16919" y1="26.76645" x2="369.14786" y2="134.49719"/>
+  </g>
+  <g id="svg_27">
+   <line stroke="#000" stroke-width="30" fill="none" x1="280.62188" y1="89.56787" x2="171.64321" y2="197.29861"/>
+   <line stroke="#000" stroke-width="30" fill="none" x1="260.16919" y1="89.78014" x2="369.14786" y2="197.51088"/>
+  </g>
+  <!-- 下绝缘子 不变 -->
+  <g transform="rotate(180 270.396 629.841)">
+   <line stroke="#000" stroke-width="30" fill="none" x1="280.62188" y1="575.86925" x2="171.64321" y2="683.59999"/>
+   <line stroke="#000" stroke-width="30" fill="none" x1="260.16919" y1="576.08153" x2="369.14785" y2="683.81227"/>
+  </g>
+  <g transform="rotate(180 270.396 699.704)">
+   <line stroke="#000" stroke-width="30" fill="none" x1="280.62188" y1="645.73227" x2="171.64321" y2="753.46301"/>
+   <line stroke="#000" stroke-width="30" fill="none" x1="260.16918" y1="645.94454" x2="369.14785" y2="753.67528"/>
+  </g>
+  <!-- 上固定竖线 不变 -->
+  <line stroke="#000" stroke-width="20" fill="none" x1="266.95891" y1="111.68493" x2="271.0685" y2="302.09589"/>
+  <!-- 合闸：刀臂下摆，与下方水平静触头闭合 -->
+  <line stroke="#000" stroke-width="20" fill="none" x1="271.0685" y1="302.09589" x2="271.0685" y2="498"/>
+  <!-- <line stroke="#000" stroke-width="20" fill="none" x1="250" y1="498" x2="292" y2="498"/> -->
+  <!-- 下固定部分 不变 -->
+  <line stroke="#000" stroke-width="20" fill="none" x1="272.43836" y1="670.58904" x2="271.06849" y2="497.98629"/>
+  <!-- <line stroke="#000" stroke-width="20" fill="none" x1="272.43836" y1="503.46575" x2="135.45206" y2="291.13698"/> -->
+ </g>
+</svg>

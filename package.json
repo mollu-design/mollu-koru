@@ -1,0 +1,69 @@
+{
+  "name": "@mollu/koru",
+  "version": "0.1.0",
+  "private": true,
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.es.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.cjs"
+    },
+    "./topology": {
+      "types": "./dist/topology/index.d.ts",
+      "import": "./dist/topology/index.es.js",
+      "require": "./dist/topology/index.cjs"
+    },
+    "./plugins/flow": {
+      "types": "./dist/plugins/flow/index.d.ts",
+      "import": "./dist/plugins/flow/index.es.js",
+      "require": "./dist/plugins/flow/index.cjs"
+    },
+    "./style/*": {
+      "import": "./dist/style/*"
+    }
+  },
+  "scripts": {
+    "dev": "vite build --watch",
+    "dev:demo": "pnpm --filter demo dev",
+    "build": "vite build",
+    "type-check": "vue-tsc --noEmit",
+    "lint": "eslint src --ext .ts,.vue",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@arco-plugins/vite-vue": "^1.4.6",
+    "@arco-design/web-vue": "^2.58.0",
+    "@vitejs/plugin-vue": "^6.0.9",
+    "sass": "^1.103.1",
+    "typescript": "^5.9.3",
+    "vite": "catalog:",
+    "vite-plugin-dts": "^4.5.4",
+    "vite-plus": "0.2.4",
+    "vue": "^3.5.0",
+    "vue-tsc": "^2.2.12"
+  },
+  "dependencies": {
+    "@antv/x6": "^3.1.7"
+  },
+  "peerDependencies": {
+    "@arco-design/web-vue": "^2.58.0",
+    "vue": "^3.4.0"
+  },
+  "optionalDependencies": {
+    "@arco-design/web-vue": "^2.58.0"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "11.24.0",
+      "onFail": "download"
+    }
+  }
+}

@@ -1,0 +1,460 @@
+// ==========================================================================
+// 全局重置样式
+// ==========================================================================
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family:
+    -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei',
+    'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #1d2129;
+  background: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+}
+
+// ==========================================================================
+// X6 Graph Widget 全局覆盖
+// ==========================================================================
+
+.x6-graph {
+  width: 100%;
+  height: 100%;
+}
+
+// ---- Stencil ----
+.x6-widget-stencil {
+  background-color: #fff;
+}
+
+.x6-widget-stencil-title {
+  background-color: #fff;
+  display: none;
+}
+
+.x6-widget-stencil-content {
+  top: 2px;
+}
+
+.x6-widget-stencil-group-title {
+  background-color: #fff !important;
+}
+
+// SVG 节点 text 显示控制
+.x6-graph .x6-node[data-shape^='svg-node-'] text,
+.x6-widget-stencil .x6-node[data-shape^='svg-node-'] text {
+  display: block;
+}
+
+// ---- Transform 控件 ----
+.x6-widget-transform {
+  margin: -1px 0 0 -1px;
+  padding: 0;
+  border: 1px solid #239edd;
+}
+
+.x6-widget-transform > div {
+  border: 1px solid #239edd;
+}
+
+.x6-widget-transform > div:hover {
+  background-color: #3dafe4;
+}
+
+.x6-widget-transform-active-handle {
+  background-color: #3dafe4;
+}
+
+.x6-widget-transform-resize {
+  border-radius: 0;
+}
+
+// ---- Selection ----
+.x6-widget-selection-inner {
+  border: 1px solid #239edd;
+}
+
+.x6-widget-selection-box {
+  opacity: 0;
+}
+
+// ==========================================================================
+// Arco Design 全局覆盖
+// ==========================================================================
+
+// Form item 间距
+.arco-form-item {
+  margin-bottom: 10px;
+}
+
+.arco-form-item-label-col {
+  padding: 0 0 4px;
+}
+
+.arco-form-item-label {
+  font-size: 13px;
+  color: #4e5969;
+}
+
+// Card 间距
+.arco-card-header {
+  padding: 12px 16px;
+  border-bottom: 1px solid #e5e6eb;
+}
+
+.arco-card-body {
+  padding: 16px;
+}
+
+// Collapse
+.arco-collapse-item-content {
+  --color-fill-1: #fff;
+  padding-left: 18px;
+}
+
+// Tabs
+.property-panel .arco-tabs-nav-type-line .arco-tabs-tab {
+  margin: 0 15px;
+}
+
+// ==========================================================================
+// 工具类
+// ==========================================================================
+
+// 预览弹窗
+.preview-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.preview-body img {
+  max-width: 100%;
+  max-height: 60vh;
+  border-radius: 4px;
+  object-fit: contain;
+  background: #fff;
+}
+
+.preview-actions {
+  display: flex;
+  justify-content: center;
+}
+
+// 保存弹窗
+.save-dialog-body {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.save-dialog-desc {
+  margin: 0;
+  font-size: 13px;
+  color: #4e5969;
+  line-height: 1.6;
+}
+
+.save-dialog-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+// 刷新恢复确认弹窗
+.restore-confirm-desc {
+  margin: 0;
+  font-size: 14px;
+  color: #4e5969;
+  line-height: 1.6;
+}
+
+// 模板命名
+.template-form-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.template-form-label {
+  font-size: 13px;
+  color: #4e5969;
+}
+
+.template-form-tip {
+  margin: 0;
+  font-size: 12px;
+  color: #86909c;
+  line-height: 1.6;
+}
+
+// 右侧属性面板容器
+.right-panel {
+  width: 280px;
+  height: 100%;
+  border-left: 1px solid #dfe3e8;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.property-panel {
+  width: 280px;
+  height: 100%;
+  border-left: 1px solid #dfe3e8;
+  overflow-y: auto;
+}
+
+.property-panel .arco-card-body {
+  padding-top: 5px !important;
+}
+
+// ==========================================================================
+// 零 Arco 基础组件样式（用于自定义 UI 壳子场景）
+// 风格对齐 Arco Design：主色 #165dff、圆角 4-8px、灰阶 #1d2129/#4e5969/#86909c/#e5e6eb
+// ==========================================================================
+
+// ---- Button ----
+.k-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 4px 12px;
+  border: 1px solid #e5e6eb;
+  border-radius: 4px;
+  background: #fff;
+  color: #1d2129;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5715;
+  transition: all 0.15s;
+  white-space: nowrap;
+  user-select: none;
+}
+.k-btn:hover:not(:disabled) {
+  color: #165dff;
+  border-color: #165dff;
+  background: #fff;
+}
+.k-btn:active:not(:disabled) {
+  color: #0e42d2;
+  border-color: #0e42d2;
+}
+.k-btn:disabled {
+  color: #c9cdd4;
+  background: #f2f3f5;
+  border-color: #e5e6eb;
+  cursor: not-allowed;
+}
+.k-btn--primary {
+  color: #fff;
+  background: #165dff;
+  border-color: #165dff;
+}
+.k-btn--primary:hover:not(:disabled) {
+  color: #fff;
+  background: #4080ff;
+  border-color: #4080ff;
+}
+.k-btn--primary:active:not(:disabled) {
+  background: #0e42d2;
+  border-color: #0e42d2;
+}
+.k-btn--primary:disabled {
+  background: #94bfff;
+  border-color: #94bfff;
+  color: rgba(255, 255, 255, 0.9);
+}
+.k-btn--danger {
+  color: #f53f3f;
+  border-color: #f53f3f;
+  background: #fff;
+}
+.k-btn--danger:hover:not(:disabled) {
+  color: #fff;
+  background: #f53f3f;
+  border-color: #f53f3f;
+}
+.k-btn--sm {
+  padding: 2px 8px;
+  font-size: 12px;
+  line-height: 1.6667;
+}
+.k-btn--xs {
+  padding: 1px 6px;
+  font-size: 12px;
+  line-height: 1.5715;
+}
+.k-btn--lg {
+  padding: 8px 20px;
+  font-size: 14px;
+  line-height: 1.5715;
+}
+
+// ---- Input ----
+.k-input {
+  width: 100%;
+  padding: 4px 11px;
+  border: 1px solid #e5e6eb;
+  border-radius: 4px;
+  background: #fff;
+  color: #1d2129;
+  font-size: 14px;
+  line-height: 1.5715;
+  outline: none;
+  transition: all 0.15s;
+}
+.k-input:focus {
+  border-color: #165dff;
+  box-shadow: 0 0 0 2px rgba(22, 93, 255, 0.1);
+}
+.k-input::placeholder {
+  color: #c9cdd4;
+}
+.k-input:disabled {
+  color: #c9cdd4;
+  background: #f2f3f5;
+}
+.k-input--sm {
+  padding: 1px 8px;
+  font-size: 12px;
+  line-height: 1.6667;
+}
+.k-input--lg {
+  padding: 8px 11px;
+  font-size: 14px;
+  line-height: 1.5715;
+}
+.k-input-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.k-input-word-limit {
+  font-size: 12px;
+  color: #86909c;
+}
+
+// ---- Divider ----
+.k-divider {
+  border: none;
+  height: 0.5px;
+  background: #e5e6eb;
+  margin: 16px 0;
+}
+
+// ---- Alert ----
+.k-alert {
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 13px;
+  line-height: 1.6667;
+}
+.k-alert--warning {
+  background: #fff7e8;
+  color: #ff7d00;
+  border: 1px solid #ffcf8b;
+}
+.k-alert--info {
+  background: #e8f3ff;
+  color: #165dff;
+  border: 1px solid #94bfff;
+}
+.k-alert--success {
+  background: #e8ffea;
+  color: #00b42a;
+  border: 1px solid #86d18b;
+}
+.k-alert--error {
+  background: #ffece8;
+  color: #f53f3f;
+  border: 1px solid #f7a39a;
+}
+
+// ---- Empty ----
+.k-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0;
+  color: #86909c;
+  font-size: 14px;
+}
+.k-empty-icon {
+  font-size: 48px;
+  margin-bottom: 12px;
+  opacity: 0.4;
+}
+
+// ---- Switch ----
+.k-switch {
+  position: relative;
+  display: inline-block;
+  width: 36px;
+  height: 18px;
+  flex-shrink: 0;
+}
+.k-switch input {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  cursor: pointer;
+  margin: 0;
+}
+.k-switch-track {
+  position: absolute;
+  inset: 0;
+  background: #c9cdd4;
+  border-radius: 9px;
+  transition: background 0.2s;
+  cursor: pointer;
+}
+.k-switch-track::after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 14px;
+  height: 14px;
+  background: #fff;
+  border-radius: 50%;
+  transition: left 0.2s;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+}
+.k-switch input:checked + .k-switch-track {
+  background: #165dff;
+}
+.k-switch input:checked + .k-switch-track::after {
+  left: 20px;
+}
+.k-switch input:focus + .k-switch-track {
+  box-shadow: 0 0 0 2px rgba(22, 93, 255, 0.2);
+}
+
+.koru-save-dialog-label {
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+// ---- Popconfirm / Confirm ----
+// 使用 KoruConfirmDialog 组件（零 Arco，teleport to body）

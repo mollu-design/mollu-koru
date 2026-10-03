@@ -1,0 +1,11 @@
+<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg">
+ <g id="Layer_1">
+  <title>Layer 1</title>
+  <path stroke-width="15" stroke="#000" filter="url(#svg_1_blur)" id="svg_1" d="m25.5,474.00003l230.5,-436.00003l230.5,436.00003l-460.99999,0z" fill="none"/>
+ </g>
+ <defs>
+  <filter id="svg_1_blur">
+   <feGaussianBlur stdDeviation="0.2" in="SourceGraphic"/>
+  </filter>
+ </defs>
+</svg>

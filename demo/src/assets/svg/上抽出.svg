@@ -1,0 +1,15 @@
+<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg">
+ <g id="Layer_1">
+  <title>Layer 1</title>
+  <g id="svg_8">
+   <g id="svg_6">
+    <line transform="rotate(45 323.285 191.75)" stroke="#000" stroke-width="30" id="svg_4" y2="191.75" x2="428.23525" y1="191.75" x1="218.33576" fill="none"/>
+    <line transform="rotate(-45 192.286 194.5)" stroke="#000" stroke-width="30" id="svg_5" y2="194.49998" x2="302.2855" y1="194.49998" x1="82.2855" fill="none"/>
+   </g>
+   <g id="svg_7">
+    <line transform="rotate(45 323.286 314.75)" stroke="#000" stroke-width="30" id="svg_2" y2="314.74999" x2="428.23528" y1="314.74999" x1="218.33579" fill="none"/>
+    <line transform="rotate(-45 192.286 317.5)" stroke="#000" stroke-width="30" id="svg_3" y2="317.49997" x2="302.28553" y1="317.49997" x1="82.28553" fill="none"/>
+   </g>
+  </g>
+ </g>
+</svg>

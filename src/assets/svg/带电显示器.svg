@@ -1,0 +1,21 @@
+<svg width="512" height="1024" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <g id="svg_7">
+   <ellipse ry="124" rx="125" id="svg_4" cy="555.38424" cx="264.31994" stroke-width="30" stroke="#000000" fill="none"/>
+   <line transform="rotate(-45 264.32 555.384)" id="svg_5" y2="555.38422" x2="380.31994" y1="555.38422" x1="148.31994" stroke-width="30" stroke="#000000" fill="none"/>
+   <line transform="rotate(45 264.32 555.384)" id="svg_6" y2="555.38424" x2="380.31994" y1="555.38424" x1="148.31994" stroke-width="30" stroke="#000000" fill="none"/>
+  </g>
+  <g id="svg_14">
+   <path stroke="currentColor" stroke-miterlimit="4" stroke-linecap="round" stroke-width="30" d="m264.31994,695.38424l0,137.40375" id="path3984"/>
+   <path stroke="currentColor" stroke-miterlimit="4" stroke-linecap="square" stroke-width="30" d="m93.81994,832.78799l341.00001,0" id="path3980"/>
+   <path stroke="currentColor" stroke-miterlimit="4" stroke-linecap="square" stroke-width="30" d="m133.91634,893.58611l260.80721,0" id="path3994"/>
+   <path stroke="currentColor" stroke-miterlimit="4" stroke-linecap="square" stroke-width="30" d="m180.51485,954.38423l167.61017,0" id="path3996"/>
+  </g>
+  <g id="svg_15">
+   <path stroke="currentColor" stroke-miterlimit="4" stroke-linecap="square" stroke-width="30" d="m133.91634,186.58611l260.80721,0" id="svg_8"/>
+   <path stroke="currentColor" stroke-miterlimit="4" stroke-linecap="square" stroke-width="30" d="m133.91632,278.38424l260.80721,0" id="svg_9"/>
+   <path stroke="currentColor" stroke-miterlimit="4" stroke-linecap="round" stroke-width="30" d="m264.31994,283.38424l0,137.40375" id="svg_10"/>
+   <path transform="rotate(90 264.32 100.586)" stroke="currentColor" stroke-miterlimit="4" stroke-linecap="square" stroke-width="30" d="m207.91632,100.58608l112.80721,0" id="svg_13"/>
+  </g>
+ </g>
+</svg>

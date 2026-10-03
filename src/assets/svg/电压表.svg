@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 电压表 -->
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512">
+  <circle stroke-width="30" stroke="#000000" stroke-dashoffset="0" stroke-miterlimit="4" stroke-linejoin="round" stroke-linecap="square" fill-rule="nonzero" fill="none" id="circle6498" cy="255.99999" cx="255" r="210"/>
+  <text id="svg_1" font-size="250" text-anchor="middle" dominant-baseline="central" y="256" x="255" fill="#000000">V</text>
+</svg>

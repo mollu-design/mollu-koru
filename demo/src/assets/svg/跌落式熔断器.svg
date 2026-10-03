@@ -1,0 +1,13 @@
+<svg width="1024" height="512" xmlns="http://www.w3.org/2000/svg">
+ <g id="Layer_1">
+  <title>Layer 1</title>
+  <line stroke="currentColor" stroke-dasharray="5,2,2,2,2,2" stroke-linecap="round" id="svg_4" y2="350.79166" x2="974.47614" y1="350.54166" x1="746.33332" stroke-width="30" fill="none"/>
+  <line stroke-linecap="round" id="svg_5" y2="399.16664" x2="741.99999" y1="302.16664" x1="740.99999" stroke-dasharray="5,2,2,2" stroke-width="30" stroke="currentColor" fill="none"/>
+  <line stroke="currentColor" stroke-dasharray="5,2,2,2,2,2" stroke-linecap="round" id="svg_11" y2="350.79166" x2="309.14282" y1="350.54166" x1="39" stroke-width="30" fill="none"/>
+  <g transform="rotate(-27.5851 522.738 241.333)" stroke="null" id="svg_16">
+   <line stroke="currentColor" stroke-dasharray="5,2,2,2,2,2" stroke-linecap="round" id="svg_12" y2="241.99998" x2="752.47617" y1="241.99998" x1="292.99998" stroke-width="45" fill="none"/>
+   <rect stroke="currentColor" id="svg_14" height="101.33333" width="244.66667" y="190.66666" x="386.28571" stroke-width="30" fill="none"/>
+  </g>
+ </g>
+
+</svg>

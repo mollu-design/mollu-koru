@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="641" height="512" viewBox="0 0 641 512">
+  <g stroke="#000">
+    <title>避雷器</title>
+    <g>
+      <title>Layer 1</title>
+      <line fill="none" stroke="#000" x1="878" y1="314" x2="877" y2="314"/>
+      <line fill="none" stroke="#000" stroke-width="30" x1="1" y1="258.5" x2="127" y2="257.5"/>
+      <line fill="none" stroke="#000" stroke-width="30" x1="118" y1="259" x2="417" y2="133"/>
+      <line fill="none" stroke="#000" x1="216" y1="328" x2="216" y2="327"/>
+      <line transform="rotate(90 454.646 259.5)" fill="none" stroke="#000" stroke-width="30" 
+           x1="393.14645" y1="259" x2="516.14645" y2="260.00001"/>
+      <line fill="none" stroke="#000" stroke-width="30" x1="469" y1="259" x2="643" y2="260.00001"/>
+      <ellipse fill="none" stroke="#000" stroke-width="30" cx="389.5" cy="259" rx="50" ry="50"/>
+    </g>
+  </g>
+</svg>

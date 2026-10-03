@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 接地刀闸 分闸状态 -->
+<svg width="512" height="640" viewBox="0 0 512 640" xmlns="http://www.w3.org/2000/svg">
+ <g id="Layer_1">
+  <title>Layer 1</title>
+  <line stroke="#000" stroke-width="30" fill="none" x1="38.83329" y1="484.67122" x2="470.83328" y2="482.67122"/>
+  <path stroke="#000" stroke-width="30" fill="none" d="m100.33329,548.6709l308.99998,-2"/>
+  <line stroke="#000" stroke-width="30" fill="none" x1="163.33329" y1="613.0045" x2="346.33328" y2="611.0045"/>
+  <line stroke="#000" stroke-width="30" fill="none" x1="254.33329" y1="396.10944" x2="254.33329" y2="478.30281"/>
+  <line stroke="#000" stroke-width="30" fill="none" x1="256" y1="402.67138" x2="52.66013" y2="180.99759"/>
+  <line stroke="#000" stroke-width="30" fill="none" x1="193.16464" y1="144.18156" x2="316.50194" y2="144.18156"/>
+  <line transform="rotate(90.3906 254.998 98.3479)" stroke="#000" stroke-width="30" fill="none" x1="217.49634" y1="98.34792" x2="292.49988" y2="98.34792"/>
+ </g>
+</svg>

@@ -1,0 +1,9 @@
+<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg">
+ <g id="Layer_1">
+  <title>Layer 1</title>
+  <rect stroke="#000" id="svg_1" height="488" width="356" y="12" x="78" stroke-width="20" fill="none"/>
+  <line id="svg_2" y2="12" x2="430" y1="498" x1="81" stroke-width="20" stroke="#000" fill="none"/>
+  <text transform="matrix(1.93265 0 0 2.24916 -98.9279 -71.3199)" stroke="#000" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="24" id="svg_3" y="70.6483" x="102.41287" stroke-width="0" fill="#000000">AC</text>
+  <text transform="matrix(1.93265 0 0 2.24916 -98.9279 -71.3199)" stroke="#000" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="24" id="svg_7" y="240.04487" x="230.73408" stroke-width="0" fill="#000000">DC</text>
+ </g>
+</svg>

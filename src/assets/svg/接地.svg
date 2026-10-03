@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 接地 -->
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <path d="m 256,40 v 226" fill="none" stroke="currentColor" stroke-width="30" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="4" stroke-dasharray="none" stroke-opacity="1"/>
+  <path d="m 20,266 h 472" fill="none" stroke="currentColor" stroke-width="30" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="4" stroke-dasharray="none" stroke-opacity="1"/>
+  <path d="m 80,366 h 361" fill="none" stroke="currentColor" stroke-width="30" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="4" stroke-dasharray="none" stroke-opacity="1"/>
+  <path d="m 140,466 h 232" fill="none" stroke="currentColor" stroke-width="30" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="4" stroke-dasharray="none" stroke-opacity="1"/>
+</svg>

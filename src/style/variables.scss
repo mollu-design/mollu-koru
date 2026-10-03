@@ -1,0 +1,67 @@
+// ==========================================================================
+// mollu-koru 样式变量
+// ==========================================================================
+// 设计令牌：颜色、间距、字体、阴影等
+// ==========================================================================
+
+// ---- 主题色 ----
+$primary-color: #165dff !default;
+$primary-color-hover: #4080ff !default;
+$primary-color-active: #0e42d2 !default;
+$success-color: #00b42a !default;
+$warning-color: #ff7d00 !default;
+$danger-color: #f53f3f !default;
+$info-color: #86909c !default;
+
+// ---- 中性色 ----
+$text-color-1: #1d2129 !default; // 标题
+$text-color-2: #4e5969 !default; // 正文
+$text-color-3: #86909c !default; // 次要
+$text-color-4: #c9cdd4 !default; // 占位
+
+$bg-color-1: #f7f8fa !default; // hover
+$bg-color-2: #f2f3f5 !default; // 选中
+$bg-color-3: #e5e6eb !default; // 边框/分割
+
+$border-color: #e5e6eb !default;
+$border-color-2: #dfe3e8 !default;
+
+// ---- 画布主题色 ----
+$canvas-blue: #239edd !default;
+$canvas-blue-light: #3dafe4 !default;
+
+// ---- 间距 ----
+$spacing-xs: 4px !default;
+$spacing-sm: 8px !default;
+$spacing-md: 12px !default;
+$spacing-lg: 16px !default;
+$spacing-xl: 24px !default;
+
+// ---- 尺寸 ----
+$sidebar-width: 210px !default;
+$panel-width: 280px !default;
+$toolbar-height: 48px !default;
+
+// ---- 字体 ----
+$font-size-xs: 12px !default;
+$font-size-sm: 13px !default;
+$font-size-md: 14px !default;
+$font-size-lg: 16px !default;
+
+// ---- 阴影 ----
+$shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.06) !default;
+$shadow-md: 0 2px 8px rgba(0, 0, 0, 0.08) !default;
+$shadow-lg: 0 4px 16px rgba(0, 0, 0, 0.12) !default;
+
+// ---- 圆角 ----
+$radius-sm: 2px !default;
+$radius-md: 4px !default;
+$radius-lg: 8px !default;
+
+// ---- z-index ----
+$z-stencil: 5 !default;
+$z-toolbar: 10 !default;
+$z-minimap: 10 !default;
+$z-property-panel: 10 !default;
+$z-context-menu: 20 !default;
+$z-tooltip: 9999 !default;

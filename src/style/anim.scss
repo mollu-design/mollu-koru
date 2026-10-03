@@ -1,0 +1,249 @@
+// ==========================================================================
+// 动画效果样式
+// ==========================================================================
+// 所有 @keyframes 和动画类选择器
+// 分为：连线动画、线条节点动画、图元动画模板
+// ==========================================================================
+
+// ==========================================================================
+// 连线（edge）动画
+// ==========================================================================
+
+// 数据流流动：stroke-dashoffset 位移
+@keyframes edgeFlow {
+  to {
+    stroke-dashoffset: -24;
+  }
+}
+
+// 闪烁告警：stroke-opacity 呼吸
+@keyframes edgeBlink {
+  0%,
+  100% {
+    stroke-opacity: 1;
+  }
+  50% {
+    stroke-opacity: 0.2;
+  }
+}
+
+// 颜色渐变循环
+@property --edge-grad-color {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: #ff7d00;
+}
+
+@keyframes edgeGradient {
+  0%,
+  100% {
+    stroke: currentColor;
+  }
+  50% {
+    stroke: var(--edge-grad-color, #ff7d00);
+  }
+}
+
+// 数据流流动
+[class-name~='edge-anim-flow'] {
+  stroke: var(--edge-grad-color, currentColor);
+  stroke-dasharray: 8 4 !important;
+  animation: edgeFlow 1s linear infinite;
+}
+
+// 闪烁告警
+[class-name~='edge-anim-blink'] {
+  stroke: var(--edge-grad-color, currentColor);
+  animation: edgeBlink 0.8s ease-in-out infinite;
+}
+
+// 颜色渐变
+[class-name~='edge-anim-gradient'] {
+  animation: edgeGradient 2s ease-in-out infinite;
+}
+
+// ==========================================================================
+// 线条节点（shape-line）动画
+// ==========================================================================
+
+// 流光：让用户的虚线段流动（依赖用户设的虚线 dasharray，不覆盖）
+@keyframes shapeLineFlow {
+  to {
+    stroke-dashoffset: -20;
+  }
+}
+
+[class-name~='shape-line-anim-flow'] {
+  animation: shapeLineFlow 0.8s linear infinite;
+}
+
+// 水珠：沿线条移动的圆点
+@keyframes shapeLineBead {
+  to {
+    stroke-dashoffset: -40;
+  }
+}
+
+[class-name~='shape-line-anim-bead'] {
+  stroke-dasharray: 3 38 !important;
+  stroke-linecap: round !important;
+  stroke-width: 10 !important;
+  animation: shapeLineBead 1.2s linear infinite;
+}
+
+// 轨迹：描边动态绘制
+@keyframes shapeLineTrail {
+  from {
+    stroke-dashoffset: 100%;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+[class-name~='shape-line-anim-trail'] {
+  stroke-dasharray: 100 !important;
+  animation: shapeLineTrail 2s ease-out infinite;
+}
+
+// 电流：急促的脉冲流动
+@keyframes shapeLineCurrent {
+  0% {
+    stroke-dashoffset: -12;
+    stroke-width: 5;
+    stroke-opacity: 1;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    stroke-width: 3;
+    stroke-opacity: 0.6;
+  }
+}
+
+[class-name~='shape-line-anim-current'] {
+  stroke-dasharray: 8 8 !important;
+  animation: shapeLineCurrent 0.4s linear infinite;
+}
+
+// 动画方向控制：反向流动
+// 与上面的动画类型类共存（使用 ~= 多值匹配）
+[class-name~='shape-line-anim-reverse'] {
+  animation-direction: reverse;
+}
+
+// ==========================================================================
+// 图元动画模板（与 HTML demo 一致的 7 种动画）
+// ==========================================================================
+// X6 节点动画 class 设在根 <g> 元素上，整体联动。
+// 连线/线条动画 class 设在 <line> 元素上。
+// SVG transform 需要 transform-box: fill-box 才能让 transform-origin 相对元素自身生效。
+
+// ---------- 透明度呼吸 ----------
+@keyframes anim-opacityBreath {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.35;
+  }
+}
+
+[class-name~='anim-opacityBreath'] {
+  animation: anim-opacityBreath 2s ease-in-out infinite;
+}
+
+// ---------- 电机旋转 ----------
+@keyframes anim-motorSpin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+[class-name~='anim-motorSpin'] {
+  animation: anim-motorSpin 3s linear infinite;
+  transform-box: fill-box;
+  transform-origin: center center;
+}
+
+// ---------- 缩放弹动 ----------
+@keyframes anim-scaleBounce {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  30% {
+    transform: scale(1.18);
+  }
+  60% {
+    transform: scale(0.95);
+  }
+}
+
+[class-name~='anim-scaleBounce'] {
+  animation: anim-scaleBounce 1.2s ease-in-out infinite;
+  transform-box: fill-box;
+  transform-origin: center center;
+}
+
+// ---------- 外发光呼吸 ----------
+@keyframes anim-glowBreath {
+  0%,
+  100% {
+    filter: drop-shadow(0 0 0px rgba(245, 63, 63, 0));
+  }
+  50% {
+    filter: drop-shadow(0 0 10px rgba(245, 63, 63, 0.9));
+  }
+}
+
+[class-name~='anim-glowBreath'] {
+  animation: anim-glowBreath 2s ease-in-out infinite;
+}
+
+// ---------- 旋转一次 ----------
+@keyframes anim-rotateOnce {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+[class-name~='anim-rotateOnce'] {
+  animation: anim-rotateOnce 1.2s ease-out forwards;
+  transform-box: fill-box;
+  transform-origin: center center;
+}
+
+// ---------- 渐入显示 ----------
+@keyframes anim-fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+[class-name~='anim-fadeIn'] {
+  animation: anim-fadeIn 1s ease forwards;
+}
+
+// ---------- 渐隐消失 ----------
+@keyframes anim-fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+[class-name~='anim-fadeOut'] {
+  animation: anim-fadeOut 1s ease forwards;
+}

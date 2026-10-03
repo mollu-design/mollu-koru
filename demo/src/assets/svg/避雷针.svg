@@ -1,0 +1,14 @@
+<svg width="512" height="896" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>Layer 1</title>
+  <g stroke="null" id="svg_2">
+   <path stroke-miterlimit="4" stroke-linecap="round" stroke-width="30" d="m256,546.99999l0,167.41315" id="path3984" stroke="rgb(0, 0, 0)"/>
+   <path stroke="rgb(0, 0, 0)" stroke-miterlimit="4" stroke-linecap="square" stroke-width="30" d="m61,715.41314l390,0" id="path3980"/>
+   <path stroke="rgb(0, 0, 0)" stroke-miterlimit="4" stroke-linecap="square" stroke-width="30" d="m110.57627,798.20657l298.28389,0" id="path3994"/>
+   <path stroke="rgb(0, 0, 0)" stroke-miterlimit="4" stroke-linecap="square" stroke-width="30" d="m160.15254,873l191.69491,0" id="path3996"/>
+  </g>
+  <path fill="none" stroke-width="30" opacity="undefined" d="m127.66632,178.67021l256.66739,0l0,349.33479l-256.66739,0l0,-349.33479z" id="svg_3" stroke="currentColor"/>
+  <path fill="none" stroke-width="30" opacity="undefined" d="m256,-4.00001l0,273.00001" id="svg_1" stroke="currentColor"/>
+  <path fill="currentColor" d="m189.5,437.21188l66.5,-170.99999l66.5,170.99999l-133,0z" id="svg_4" stroke="currentColor" stroke-width="30" transform="rotate(180 256 351.712)"/>
+ </g>
+</svg>

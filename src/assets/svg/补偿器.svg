@@ -1,0 +1,26 @@
+<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg" stroke="null">
+ <g stroke="null" id="Layer_1">
+  <title stroke="null">Layer 1</title>
+  <g id="svg_13">
+   <g id="svg_10">
+    <line transform="rotate(-57.8509 129.273 266.158)" stroke="currentColor" fill="none" stroke-width="30" x1="129.26442" y1="221.40799" x2="129.28093" y2="310.90863" id="svg_18"/>
+    <line stroke="currentColor" fill="none" stroke-width="30" x1="27.90726" y1="413.43467" x2="209.68483" y2="413.93467" id="svg_53"/>
+    <line stroke="currentColor" fill="none" stroke-width="30" x1="222.66839" y1="368.9343" x2="222.68489" y2="458.43494" id="svg_54"/>
+    <line transform="rotate(-57.8509 80.9634 342.704)" stroke="currentColor" fill="none" stroke-width="30" x1="5.53257" y1="342.45382" x2="156.39428" y2="342.95382" id="svg_9"/>
+   </g>
+   <g id="svg_11">
+    <line fill="none" stroke-width="30" x1="288.31518" y1="413.43465" x2="484.09276" y2="413.93465" id="svg_20" stroke="currentColor"/>
+    <line fill="none" stroke-width="30" x1="288.31519" y1="368.93433" x2="288.33178" y2="458.43497" id="svg_21" stroke="currentColor"/>
+    <line transform="rotate(58 376.335 254.678)" stroke="currentColor" fill="none" stroke-width="30" x1="376.32709" y1="209.92726" x2="376.34368" y2="299.4279" id="svg_78"/>
+    <line transform="rotate(58 427.675 334.64)" stroke="currentColor" fill="none" stroke-width="30" x1="343.8834" y1="334.39047" x2="511.46625" y2="334.89047" id="svg_8"/>
+   </g>
+   <g id="svg_12">
+    <line transform="rotate(-57.8509 218.82 123.358)" stroke="currentColor" fill="none" stroke-width="30" x1="136.54385" y1="123.10843" x2="301.09592" y2="123.60843" id="svg_17"/>
+    <line transform="rotate(58 297.056 125.607)" stroke="currentColor" fill="none" stroke-width="30" x1="224.78034" y1="125.35679" x2="369.33178" y2="125.85679" id="svg_77"/>
+    <line transform="rotate(-121.605 340.499 197.048)" fill="none" stroke-width="30" x1="340.49039" y1="152.29765" x2="340.50698" y2="241.79829" id="svg_81" stroke="currentColor"/>
+    <line transform="rotate(122.751 170.614 201.584)" stroke="currentColor" fill="none" stroke-width="30" x1="170.60552" y1="156.83393" x2="170.62202" y2="246.33457" id="svg_3"/>
+   </g>
+  </g>
+ </g>
+
+</svg>

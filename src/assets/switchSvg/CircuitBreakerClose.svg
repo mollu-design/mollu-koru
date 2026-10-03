@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="641" height="512" viewBox="0 0 641 512" xmlns="http://www.w3.org/2000/svg">
+ <g id="Layer_1">
+  <line stroke="#000" fill="none" stroke-linecap="round" stroke-linejoin="round" x1="877" y1="312" x2="876" y2="312"/>
+  <!-- 全线水平直通 闭合 -->
+  <line stroke="#000" stroke-width="30" fill="none" stroke-linecap="round" stroke-linejoin="round" x1="0" y1="256" x2="467" y2="256"/>
+  <line stroke="#000" fill="none" stroke-linecap="round" stroke-linejoin="round" x1="215" y1="326" x2="215" y2="325"/>
+  <line transform="rotate(45 450.646 255.999)" stroke="#000" stroke-width="30" fill="none" stroke-linecap="round" stroke-linejoin="round" x1="389.14645" y1="256.49897" x2="512.14645" y2="255.49897"/>
+  <line transform="rotate(135 450.648 256)" stroke="#000" stroke-width="30" fill="none" stroke-linecap="round" stroke-linejoin="round" x1="389.1475" y1="256.50042" x2="512.1475" y2="255.50042"/>
+  <line stroke="#000" stroke-width="30" fill="none" stroke-linecap="round" stroke-linejoin="round" x1="467" y1="256.49934" x2="641" y2="255.49934"/>
+ </g>
+</svg>

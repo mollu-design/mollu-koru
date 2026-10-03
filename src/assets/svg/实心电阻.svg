@@ -1,0 +1,7 @@
+<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <path transform="rotate(90 257.5 58.5)" stroke-miterlimit="4" stroke-linecap="round" stroke-width="30" stroke="#000000" fill="none" d="m217.5,58.5l80,0" id="path5036"/>
+  <path transform="rotate(90 257.5 443.5)" stroke-miterlimit="4" stroke-linecap="round" stroke-width="30" stroke="#000000" fill="none" d="m207.5,443.5l100,0" id="path5038"/>
+  <path id="rect5044" d="m120,206l275,0l0,100l-275,0l0,-100z" opacity="undefined" stroke-linecap="square" stroke-linejoin="round" stroke-width="30" stroke="#000000" fill="#000000" transform="rotate(90 257.5 256)"/>
+ </g>
+</svg>
